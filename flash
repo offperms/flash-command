@@ -1,0 +1,27 @@
+local args = {
+    [1] = ";shirt me 4740195885"
+}
+
+game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand:InvokeServer(unpack(args))
+local args = {
+    [1] = ";pants me 4740196663"
+}
+
+game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand:InvokeServer(unpack(args))
+
+local args = {
+    [1] = ";hat me 124745856"
+}
+
+game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand:InvokeServer(unpack(args))
+
+local args = {
+    [1] = ";hat me 5268670980"
+}
+
+game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand:InvokeServer(unpack(args))
+
+local plr = game.Players.LocalPlayer
+	local char = plr.Character
+
+	char.Humanoid.WalkSpeed =200
